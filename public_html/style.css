@@ -1,0 +1,533 @@
+body{
+    overflow-x:hidden;
+}
+
+navbar {
+    transition: all 0.4s;
+}
+
+.navbar .nav-link {
+    color: black;
+    font-size:12px;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: black;
+    font-size:20px;
+}
+
+.navbar.active {
+    background: white;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: #555;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #555;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: #555;
+}
+
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #fff;
+    }
+
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: #555;
+    }
+    
+}
+
+@media only screen and (min-width: 992px) {
+  
+    #shield, #tree , #circle,#money{
+        margin-left:10%;
+    }
+    
+    #user, #money ,#env {
+        margin-left:10%;
+    }
+    
+    .content-container #section-header{
+        margin-left:20%!important;
+    }
+    
+    #customer-review{
+        margin-left:40%!important;
+    }
+    
+    .heading5,.para1{
+        margin-left:-10vw!important;
+    }
+    
+    
+}
+
+
+.text1{
+    color:grey;
+    padding-top:25%!important;
+    float:left;
+}
+
+.text2{
+    float:left;
+    font-size:60px;
+}
+
+.header2{
+    padding-top:9.5rem!important;
+}
+
+.second-header{
+    padding-top:6rem!important;
+}
+
+.second-heading {
+    font-size:55px;
+    font-weight:bolder;
+}
+
+.wrimagecard{	
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    margin-left:8rem;
+    position: relative;
+    background: #fff;
+    box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    width:120px;
+}
+.wrimagecard .fa{
+    position: relative;
+    font-size: 40px;
+    color:black;
+}
+.wrimagecard-topimage_header{
+padding: 20px;
+}
+a.wrimagecard:hover, .wrimagecard-topimage:hover {
+    box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.2);
+}
+.wrimagecard-topimage a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.wrimagecard-topimage_title {
+    height: 80px;
+    position: relative;
+    font-size:20px;
+    color: black;
+}
+.wrimagecard-topimage a {
+    border-bottom: none;
+
+}
+
+.img-fluid {
+    margin-left:-4rem!important;
+}
+
+#image1{
+    margin-left:5vw!important;
+}
+
+.button{
+    text-align: right!important;
+    margin-bottom:3%!important;
+    padding-right:8%;
+     padding-bottom: 5px;
+     position: static;   
+}
+
+input[type="text"],.form-control {
+    background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+
+
+.form-heading{
+    font-weight:bolder;
+    font-size:55px;
+}
+
+.button1{
+    padding-top:3%;
+}
+
+.form-group {
+    padding-top:2rem!important;
+}
+
+.chat-link{
+    color:darkred;
+    font-weight:bold;
+    font-size:30px;
+    padding-left:10%;
+    margin-bottom:0%;
+    text-decoration: underline;
+}
+
+.third-heading{
+    font-weight: bolder;
+    font-size:55px;
+}
+
+#card-column1{
+    margin-left:-10vw!important;
+}
+
+.button3{
+    margin-left:9vw!important;
+    padding-top:3%;
+}
+
+#image-column, #image5{
+    margin-left:10%!important;
+}
+
+.third-heading{
+    margin-left: 8rem!important;
+}
+
+.card-container{
+    padding-top: 8rem!important;
+    width:1200px;
+    padding-left:7%;
+}
+
+.card{
+    border:none;
+}
+
+.card-title {
+    font-weight:bolder;
+    font-size:40px;
+}
+
+#header4{
+    padding-top:8%!important;
+}
+
+#card-group{
+    border: 1px solid black;
+    background-color: buttonhighlight;
+
+}
+
+#card-group .fa {
+    font-size:50px;
+    color:blue;
+}
+
+#cardrow-2{
+    padding-top:3%!important;
+    margin-left: 1%;
+   width:100vw!important;
+}
+
+.heading5{
+    font-weight:bolder;
+    font-size:55px;
+}
+
+#anothercard{
+    padding-left:-10vw!important;
+}
+
+.text-container .heading6{
+    padding-top: 10rem!important;
+    margin-left: 20%;
+    font-weight: bolder;
+    font-size:60px;
+}
+
+#button6{
+ font-weight: bold;
+ font-size:20px;
+}
+
+.information {
+   margin-left:12%;
+}
+
+.para{
+    font-size:20px;
+    font-family: sans-serif;
+}
+
+#section1{
+    padding-right:8%;
+}
+
+#third-card{
+     border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 14px 80px 18px 36px;
+  cursor: pointer;
+  min-width:350px;
+  margin-left:-5vw!important;
+  text-align: center;
+
+}
+
+#section2, #section3{
+    padding-top:8%;
+}
+#third-card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+#image7{
+    padding-left:40%;
+}
+
+.heading7{
+    font-weight: bolder;
+    font-size:55px;
+    padding-left:40%;
+}
+
+#card-column4{
+    padding-top:8%!important;
+    
+}
+
+.card3-title{
+    font-weight:bolder;
+    font-size:35px;
+    text-align: left;
+    
+}
+
+.card .fa{
+    font-size:70px;
+}
+
+.card-deck{
+   margin-left:-10vw;
+}
+
+.footer-dark {
+  padding:50px 0;
+  color:black;
+  background-color:lightgray;
+}
+
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom:36px;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom:0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity:0.6;
+  margin-bottom:0;
+}
+
+.footer-dark .item.social {
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align:center;
+    margin-top:20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:black;
+  opacity:0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity:0.9;
+}
+
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
+}
+
+.copyright{
+    color:black;
+    font-size:30px;
+}
+
+#card-section{
+    margin-left:5%;
+}
+
+@media only screen and (max-width: 600px) {
+    .image2-container{
+        margin-left:2rem!important;
+    }
+    #section5{
+        margin-left: 10%;
+    }
+    
+    #form-column{
+        margin-left:-10vw!important;
+    }
+    
+    #image-column{
+        margin-left:-3vw!important;
+    }
+    
+    .third-heading{
+        margin-left:20vw!important;
+    }
+    
+    .button{
+        margin-left:-80vh!important;
+    }
+    
+    .chat-link{
+        font-size:15px;
+        font-weight:bold;
+        padding-left:-3vw!important;
+    }
+    .button3{
+        margin-left:40%!important;
+    }
+    
+    #card-section{
+        width:30px;
+        margin-left:20%;
+        paddiing-top:0;
+    }
+    
+    #image6{
+        margin-left:5vw!important;
+    }
+    
+    #card-group{
+        margin-left:10vw!important;
+    }
+    .heading6{
+        margin-left:-2vw!important;
+        margin-top:3%;
+    }
+    
+    #image9{
+        margin-left:8vw!important;
+    }
+    
+    #section2{
+        padding-top: 9.5rem!important;
+    }
+    
+    #customer-review{
+        margin-left:-5vw!important;
+    }
+    
+    .heading7{
+        margin-left:-5vw!important;
+        font-size:20px;
+        font-weight:bolder;
+    }
+    
+    #section3{
+        margin-left:10vw!important;
+    }
+    
+    #image8{
+        margin-left:-8vw!important;
+    }
+    
+    #image10{
+        margin-left:-5vw!important;
+    }
+    #section5{
+        padding-left:15%!important;
+    }
+    
+    #form{
+        margin-left:-5vw!important;
+    }
+    
+    .second-heading{
+        margin-left:8vw!important;
+    }
+    
+    .text1{
+        padding-top:3%!important;
+    }
+}
+
+
